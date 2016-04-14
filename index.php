@@ -6,7 +6,7 @@
 <div class="wrap">
     
     <div class="main_content">
-        
+        <p>hello</p>
     </div><!-- End Main Content -->
     
 </div><!-- End Page Wrap -->
