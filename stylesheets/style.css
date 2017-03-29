@@ -190,6 +190,9 @@ h1, h2, h3, h4, h5, p {
 .mar30 {
   margin: 30px !important; }
 
+.mar50 {
+  margin: 50px !important; }
+
 .mar60 {
   margin: 60px !important; }
 
@@ -503,6 +506,9 @@ h1, h2, h3, h4, h5, p {
 
 .mar30 {
   margin: 30px !important; }
+
+.mar50 {
+  margin: 50px !important; }
 
 .mar60 {
   margin: 60px !important; }
