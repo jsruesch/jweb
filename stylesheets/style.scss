@@ -1,184 +1,108 @@
-
-/*------------------------------------------------------------------
-
-STYLESHEET CONTENTS
-
-    -- GLOBAL STYLES
-    -- MISC CLASSES
-    -- ACTIVE PAGE
-    -- CONTAINERS
-    -- NAVIGATION
-    -- ELEMENTS
-    -- FOOTER
-    
--------------------------------------------------------------------*/
-
-
-/*------------------------------------------------------------------
-
-    Global Styles
-
--------------------------------------------------------------------*/
+/**
+ * =========================================
+ * Imports
+ * =========================================
+ */
 
 @import 'mixins';
+@import 'responsive_styles';
 
-* {
-    margin:0; padding:0;
+/* END: Imports */
 
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-    }
 
-html{ overflow:scroll;}
+/**
+ * =========================================
+ * Global Styles
+ * =========================================
+ */
 
-body{  }
+ * {
+     margin:0; padding:0;
 
-a{    
-     &:hover{
-    }
+     -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+             box-sizing: border-box;
+ }
 
-}
+ html{
+   overflow: scroll;
+   min-height: 100%;
+   position: relative;
+   width: 100%;
+ }
 
+ body{  }
 
-p{  }
+ a{  }
 
-ul{ list-style:none; }
+ p{  }
 
-hr{  }
+ ul{ list-style:none; }
 
-h1{  }
-h2{  }
-h3{  }
-h4{  }
-h5{  }
+ hr{  }
 
-::selection{  }
+ h1, h2, h3, h4, h5, h6{
 
-/* End Global Styles */
+ }
 
+ table tr{  }
 
-/*------------------------------------------------------------------
+ ::selection{  }
 
-    Misc Classes
+ /* END: Global Styles */
 
--------------------------------------------------------------------*/
 
-.clear{ clear: both; }
+ /**
+  * =========================================
+  * Utility Classes
+  * =========================================
+  */
 
-.left{ float:left; }
-.right{ float:right; }
+ .clear{ clear: both; }
+ .left{  float: left; }
+ .right{ float: right; }
+ /* Five Columns Setup */
+ .col-xs-15,
+ .col-sm-15,
+ .col-md-15,
+ .col-lg-15 {
+     position: relative;
+     min-height: 1px;
+     padding-right: 10px;
+     padding-left: 10px;
+ }
+ .col-xs-15{
+   width: 20%;
+   float: left;
+ }
 
-.bold{ font-weight:bold;}
-.italic{ font-style: italic; }
-.underline{ text-decoration:underline; }
+ /* END: Utility Classes */
 
-.center_text{ text-align:center; }
-.all_caps{ text-transform:uppercase; }
-.lower_case{ text-transform:lowercase; }
 
-/* End Misc Classes */
+ /**
+  * =========================================
+  * Navigation
+  * =========================================
+  */
 
 
+/* END: Navigation */
 
-/*------------------------------------------------------------------
 
-    Active Page
+ /**
+  * =========================================
+  * Elements
+  * =========================================
+  */
 
--------------------------------------------------------------------*/
+/* END: Elements */
 
-    /*
-      body#ID_NAME_HERE .Navigation_Name li.List_Item_Class_Here{ Style for active Nav button }
-    */
 
-/* End Active Page */
+/**
+ * =========================================
+ * Footer
+ * =========================================
+ */
 
-
-
-/*------------------------------------------------------------------
-
-    Containers
-
--------------------------------------------------------------------*/
-
-.one_fourth{ width:25%; }
-.one_third{ width:33.3%; }
-.half{ width:50%;}
-.two_thirds{ width:66.66%; }
-.full{ @include full; }
-
-.container{  }
-.content{ @include full; padding:20px; }
-.center{ @include center; }
-
-.wrap{ width:980px; @include center; }
-
-/* End Containers */
-
-
-
-/*------------------------------------------------------------------
-
-    Navigation
-
--------------------------------------------------------------------*/
-
-.navigation_container{
-
-    .navigation{
-
-        .nav{
-
-            a{
-
-               &:hover{
-
-               }
-                
-                li{
-
-                }
-            }
-        }
-    }
-}
-
-
-/* End Navigation */
-
-
-
-/*------------------------------------------------------------------
-
-    Elements
-
--------------------------------------------------------------------*/
-  
-
-
-/* End Elements */
-
-
-
-/*------------------------------------------------------------------
-
-    Footer
-
--------------------------------------------------------------------*/
-.footer{
-
-}
-
-/* End Footer */
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+/* END: Footer */
